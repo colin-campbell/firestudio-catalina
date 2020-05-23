@@ -20,7 +20,7 @@ What the script does:
 To uninstall, run the PreSonus uninstaller from the **new** dmg:  
  `PreSonus_UniversalControl_v3_2_1_57677.dmg`
 
-Mac OS Gatekeeper may complain about the new Firewire driver if you have SIP enabled, if prompted, Visit System Preferences->Security & Privacy to allow the drievr to run.  
+Mac OS Gatekeeper may complain about the new Firewire driver if you have SIP enabled, if prompted, Visit System Preferences->Security & Privacy to allow the driver to run.  
 
 You may need to power-cycle the interface once after the driver is installed. 
 
