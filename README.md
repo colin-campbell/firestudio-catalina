@@ -13,7 +13,7 @@ What the script does:
 * Fixes permissions on the installed software.
 
 ### Instructions
-* Download the script: `firestudio_catalina.sh`
+* Download and extract the latest [release](https://github.com/colin-campbell/firestudio-catalina/releases)
 * Run the script in a terminal with: `sh presonus_catalina.sh` you will be prompted for your password.
 * Reboot when finished.
 

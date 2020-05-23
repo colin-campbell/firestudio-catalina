@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+## Some jolly, happy  colours
+
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+NC='\033[0m' #No Colour
+
 DRIVER_DMG="PreSonus_UniversalControl_v3_2_1_57677.dmg"
 UC_DMG="PreSonus_Universal_Control-5875.dmg"
 
@@ -9,13 +15,18 @@ REMOTE_UC="https://pae-web.presonusmusic.com/downloads/products/dmg/${UC_DMG}"
 SUBDIR="Presonus Universal Control"
 FW_DRIVER="${SUBDIR}/PreSonus FireWire Driver.pkg"
 
-echo
-echo "Downloading Firewire driver."
-curl -O -# "${REMOTE_DRIVER}"
+resetTerm() {
+  printf"${RED}Exiting due to error${NC}"
+}
+
+trap 'resetTerm' ERR
+
+printf "\n${GREEN}Downloading Firewire driver.\n"
+[ ! -f "$DRIVER_DMG" ] && curl -O -# "${REMOTE_DRIVER}"
 
 
 printf "\nDownloading Control Panel\n"
-curl -O -# "{$REMOTE_UC}"
+[ ! -f "$UC_DMG" ] && curl -O -# "{$REMOTE_UC}"
 
 
 printf "\nMounting Firewire driver dmg"
@@ -59,4 +70,4 @@ sudo chown -R root:wheel "/Library/Application Support/Presonus"
 printf "\nRemoving temporary files\n"
 rm -rf tmp
 
-printf "\n\nAll done! reboot your computer to load the new software."
+printf "\n\nAll done! reboot your computer to load the new software.${NC}"
