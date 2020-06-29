@@ -9,6 +9,8 @@ NC='\033[0m' #No Colour
 DRIVER_DMG="PreSonus_UniversalControl_v3_2_1_57677.dmg"
 UC_DMG="PreSonus_Universal_Control-5875.dmg"
 
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+cd "$DIR"
 
 REMOTE_DRIVER="https://pae-web.presonusmusic.com/downloads/products/dmg/${DRIVER_DMG}"
 REMOTE_UC="https://pae-web.presonusmusic.com/downloads/products/dmg/${UC_DMG}"
