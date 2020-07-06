@@ -2,10 +2,10 @@
 
 ### NO SUPPORT WHATSOEVER IS PROVIDED FOR THIS! IF IT EATS YOUR FIRSTBORN, THEN IT IS ON YOU.
 
-This script will help install the Firewire driver and Universal Control v1.7.6  
+This script and/or will help install the Firewire driver and Universal Control v1.7.6  
 for unsupported PreSonus Firewire devices on Mac OS Catalina 10.15  
 
-What the script does:
+What the script/app does:
 * Downloads and installs the new Catalina-compatible Firewire driver from UC v3.2.1-57667
 * Downloads the old UC Control Panel app from v 1.7.6-5875
 * Extracts the control panel and panel drivers from the old version
@@ -14,7 +14,10 @@ What the script does:
 
 ### Instructions
 * Download and extract the latest [release](https://github.com/colin-campbell/firestudio-catalina/releases)
-* Run the script in a terminal with: `sh presonus_catalina.sh` you will be prompted for your password.
+* OR download the DMG file that contains a clicklable "app" version of the script
+* Run the script in a terminal with: `sh presonus_catalina.sh` you will be 
+prompted for your password.
+* OR open the DMG file and double-click the "Firestudio Catalina" app
 * Reboot when finished.
 
 To uninstall, run the PreSonus uninstaller from the **new** dmg:  
