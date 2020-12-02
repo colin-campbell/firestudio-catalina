@@ -2,7 +2,7 @@
 
 ### NO SUPPORT WHATSOEVER IS PROVIDED FOR THIS! IF IT EATS YOUR FIRSTBORN, THEN IT IS ON YOU.
 
-This script and/or will help install the Firewire driver and Universal Control v1.7.6  
+This script and/or Application will help install the Firewire driver and Universal Control v1.7.6  
 for unsupported PreSonus Firewire devices on Mac OS Catalina 10.15  
 
 What the script/app does:
