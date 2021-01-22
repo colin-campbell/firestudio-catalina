@@ -1,4 +1,4 @@
-## Run unsupported PreSonus FireStudio* on Mac OS Catalina 10.15
+## Run unsupported PreSonus FireStudio* on Mac OS Catalina 10.15 and Big Sur 11.1 (Intel Only)
 
 ### NO SUPPORT WHATSOEVER IS PROVIDED FOR THIS! IF IT EATS YOUR FIRSTBORN, THEN IT IS ON YOU.
 
