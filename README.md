@@ -14,8 +14,10 @@ What the script/app does:
 * Installs `Universal Control.app` and the panel drivers in the correct locations
 * Fixes permissions on the installed software.
 
-See (Silent) Video of it in operation here:
-[https://www.youtube.com/watch?v=GeoG24QyTWg](https://www.youtube.com/watch?v=GeoG24QyTWg)
+See (Silent) Video of it in operation here:  
+
+
+[![Driver in action on Mac OS Big Sur](https://img.youtube.com/vi/GeoG24QyTWg/0.jpg)](https://www.youtube.com/watch?v=GeoG24QyTWg)
 
 ### Instructions
 * Download and extract the latest [release](https://github.com/colin-campbell/firestudio-catalina/releases/latest)
