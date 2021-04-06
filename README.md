@@ -4,11 +4,11 @@
 
 ### NO SUPPORT WHATSOEVER IS PROVIDED FOR THIS! IF IT EATS YOUR FIRSTBORN, THEN IT IS ON YOU.
 
-This script and/or Application will help install the Firewire driver and Universal Control v1.7.6  
-for unsupported PreSonus Firewire devices on Mac OS Catalina 10.15 and Big Sur 11  
+This Application will help install the Firewire driver and Universal Control v1.7.6  
+for unsupported PreSonus Firewire devices on Mac OS Catalina 10.15 and above 
 
-What the script/app does:
-* Downloads and installs the new Catalina-compatible Firewire driver from UC v3.2.1-57667
+What the app does:
+* Downloads and installs the new 10.15+ compatible Firewire driver from UC v3.4.2-63992
 * Downloads the old UC Control Panel app from v 1.7.6-5875
 * Extracts the control panel and panel drivers from the old version
 * Installs `Universal Control.app` and the panel drivers in the correct locations
@@ -20,17 +20,14 @@ See (Silent) Video of it in operation here:
 [![Driver in action on Mac OS Big Sur](https://img.youtube.com/vi/GeoG24QyTWg/0.jpg)](https://www.youtube.com/watch?v=GeoG24QyTWg)
 
 ### Instructions
-* Download and extract the latest [release](https://github.com/colin-campbell/firestudio-catalina/releases/latest)
-* OR download the DMG file that contains a clicklable "app" version of the script
-* Run the script in a terminal with: `sh presonus_catalina.sh` you will be 
-prompted for your password.
-* OR open the DMG file and double-click the "Firestudio Catalina" app
+* Download the latest DMG [release](https://github.com/colin-campbell/firestudio-catalina/releases/latest)
+* Open the DMG file and double-click the "Firestudio Catalina" app
 * Reboot when finished.
 
 To uninstall, run the PreSonus uninstaller from the **new** dmg:  
- `PreSonus_UniversalControl_v3_2_1_57677.dmg`
+ `PreSonus_UniversalControl_v3_4_2_63992.dmg`
 
-Mac OS Gatekeeper may complain about the new Firewire driver if you have SIP enabled, if prompted, Visit System Preferences->Security & Privacy to allow the driver to run.  
+Mac OS Gatekeeper may ask for permission to run the new Firewire driver if you have SIP enabled, if prompted, Visit System Preferences->Security & Privacy to allow the driver to run.  
 
 You may need to power-cycle the interface once after the driver is installed. 
 
