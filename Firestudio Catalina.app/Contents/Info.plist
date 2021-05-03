@@ -19,11 +19,11 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.3.0</string>
+	<string>0.4.0</string>
 	<key>CFBundleSignature</key>
 	<string>aplt</string>
 	<key>CFBundleVersion</key>
-	<string>32</string>
+	<string>34</string>
 	<key>LSMinimumSystemVersionByArchitecture</key>
 	<dict>
 		<key>x86_64</key>
@@ -70,7 +70,7 @@
 		<key>positionOfDivider</key>
 		<real>745</real>
 		<key>savedFrame</key>
-		<string>253 69 1335 996 0 0 1792 1097 </string>
+		<string>253 74 1335 996 0 0 1792 1097 </string>
 		<key>selectedTab</key>
 		<string>result</string>
 	</dict>
