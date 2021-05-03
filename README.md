@@ -1,3 +1,5 @@
+If you find my work useful, please feel free to buy me some coffees at [https://www.buymeacoffee.com/steenh](https://www.buymeacoffee.com/steenh)
+
 ## Run unsupported PreSonus FireStudio* on Mac OS Catalina 10.15 and Big Sur 11.1 (Intel Only)
 
 ### THIS WILL NEVER WORK ON APPLE SILICON (M1) MACS
