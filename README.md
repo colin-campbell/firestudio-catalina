@@ -9,6 +9,8 @@ If you find my work useful, please feel free to buy me some coffees at [https://
 This Application will help install the Firewire driver and Universal Control v1.7.6  
 for unsupported PreSonus Firewire devices on Mac OS Catalina 10.15 and above 
 
+### Note: The driver will seemingly only run properly on pre 2012 Macs up to Catalina. Later than Catalina require a VT-D capable motherboard. This information comes from OpenCore forum and appears to be a MacOS limitation, not a problem with the driver itself.
+
 What the app does:
 * Downloads and installs the new 10.15+ compatible Firewire driver from UC v3.4.2-63992
 * Downloads the old UC Control Panel app from v 1.7.6-5875
