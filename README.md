@@ -1,3 +1,18 @@
+### Great news - this project is end of life!
+
+**Mrmidi has made an open source DriverKit Firewire driver that works directly with Presonus and other audio devices
+which also works on Apple Silicon!** 
+
+Please donate to his project if you can.
+
+See here https://github.com/mrmidi/ASFireWire
+and download from here https://www.asfw.net/
+
+<pre>
+
+
+ 
+</pre>
 If you find my work useful, please feel free to buy me some coffees at [https://www.buymeacoffee.com/steenh](https://www.buymeacoffee.com/steenh)
 
 ## Run unsupported PreSonus FireStudio* on Mac OS Catalina to Sonoma (Intel Only)
